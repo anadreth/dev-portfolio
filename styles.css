@@ -1,6 +1,6 @@
 @font-face {
-    font-family: Montserrat;
-    src: url(/Montserrat-VariableFont_wght.ttf);
+    font-family: GochiHand;
+    src: url(/GochiHand-Regular.ttf);
 }
 
 * {
@@ -11,7 +11,7 @@
 }
 
 li, a, button {
-    font-family: Montserrat, sans-serif;
+    font-family: GochiHand, sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: black;
@@ -19,6 +19,7 @@ li, a, button {
 }
 
 header {
+    background-color: aqua;
     display: flex;
     justify-content: flex-end; /* pushes L and R item to the edges */
     align-items: center;
@@ -60,3 +61,19 @@ button {
 button:hover {
     background-color: rgba(0, 136 , 169, 0.8);
 }
+
+
+.main {
+    display: inline;
+    background-color: rgb(68, 0, 255);
+    font-family: GochiHand;
+    text-align: left;
+    font-size: 30px;
+}
+
+.home-page, svg {
+    display: inline-block;
+    background-color: brown;
+}
+
+
