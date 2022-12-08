@@ -62,18 +62,30 @@ button:hover {
     background-color: rgba(0, 136 , 169, 0.8);
 }
 
-
-.main {
-    display: inline;
-    background-color: rgb(68, 0, 255);
-    font-family: GochiHand;
-    text-align: left;
-    font-size: 30px;
+.home-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+    .div_headline{
+        text-align: left;
+        margin-left: 20%;
+        background-color: transparent;
+        width: 50%;
+        display: inline;
+        z-index: -1;
+        
+    }
+    .svg_profile {
+        position: absolute;
+        background-color: blue;
+        width:50%;
+        display: inline;
+        left: 500px;
+        z-index: 1;
+    }
 
-.home-page, svg {
-    display: inline-block;
-    background-color: brown;
-}
-
+    .div_headline, .svg_profile {
+       
+    }
 
